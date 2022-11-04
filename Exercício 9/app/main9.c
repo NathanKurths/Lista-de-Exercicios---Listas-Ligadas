@@ -12,7 +12,7 @@ int main()
     tres.nid = 4;
     quatro.nid = 44;
     Lista *li;
-    LIsta *sta;
+    Lista *sta;
     criar_lista(li);
     cria_lista(sta);
     insere_lista_ordenada_aluno(li, um); //inserindo um carro de um aluno que respeita 90% da vaga de 200
@@ -21,5 +21,7 @@ int main()
     insere_lista_ordenada(sta, quatro);
     print_lista(li);
     print_lista(sta);
+    libera_lista(li);
+    libera_lista(sta);
     return 0;
 }

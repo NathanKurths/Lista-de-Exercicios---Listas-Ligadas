@@ -15,5 +15,6 @@ int main()
     insere_lista_inicio(li, quatro);
     char site_do_aluno_tres[100] = "www.alunotres.com.br";
     destaca_link(li, site_do_aluno_tres);// a funçao encontrou e trouxe o nó do aluno para a o inicio da lista.
+    libera_lista(li);
     return 0;
 }

@@ -14,5 +14,6 @@ int main()
     insere_lista_inicio(li, tres);
     insere_lista_inicio(li, quatro);
     remove_pares(li);
+    libera_lista(li);
     return 0;
 }

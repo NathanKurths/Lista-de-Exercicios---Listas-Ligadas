@@ -21,5 +21,6 @@ int main()
     busca_lista_ra(li, 76, &dois);
     int x = tres.ra;
     remove_lista(li, x); //quero remover o aluno com esse registro
+    libera_lista(li);
     return 0;
 }

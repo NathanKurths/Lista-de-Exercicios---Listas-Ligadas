@@ -14,6 +14,7 @@ int main()
     insere_lista_recursivo(li, tres);
     remove_lista_recursivo(li);
     listar_lista_recursivo(li);
+    libera_lista(li);
     
     return 0;
 }

@@ -18,5 +18,6 @@ int main()
     insere_lista_ordenada(li, tres);
     insere_lista_ordenada(li, quatro);
     print_lista(li);
+    libera_lista(li);
     return 0;
 }

@@ -11,11 +11,11 @@ int main()
     insere_lista(li, um); 
     insere_lista(li, dois);
     insere_lista(li, tres);
-    remove_lista(li);
     tamanho_lista(li);
     char endereco_pra_encontrar[100] = "Jardim Aeroporto 180";
     um.endereco = endereco_pra_encontrar;
     consulta_lista_endereco(li, endereco_pra_encontrar, um); 
     print_lista(li);
-
+    remove_lista(li, endereco_pra_encontrar);
+    libera_lista(li);
 }
