@@ -117,4 +117,3 @@ int listar_lista_recursivo(Lista *li){
         listar_lista_recursivo(no->prox);
     }
 }
-
